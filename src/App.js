@@ -16,6 +16,9 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  // useEffect(() => {
+  //   localStorage.clear();
+  // });
   return (
     <div className="App">
       <header className="App-header">
