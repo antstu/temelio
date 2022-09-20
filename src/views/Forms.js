@@ -5,6 +5,7 @@ import {
   NonProfitForm,
   SegmentedControl,
 } from "../components";
+import NavBar from "../components/NavBar/NavBar";
 import { getFromLocalStorage } from "../helpers";
 import useForm from "../hooks/useForm";
 import "./styles.css";
@@ -39,6 +40,7 @@ const Forms = () => {
 
   return (
     <div>
+      <NavBar />
       <SegmentedControl
         name="group-1"
         callback={handleSetType}
